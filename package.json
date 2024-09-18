@@ -1,0 +1,35 @@
+{
+  "name": "mongojs",
+  "version": "0.0.0",
+  "description": "A next generation runtime js data validator based on mongo syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheit/mongojs.git"
+  },
+  "keywords": [
+    "mongo-expression-validation",
+    "runtime-js-data-validation",
+    "comparator",
+    "sort",
+    "projection",
+    "dynamic-validator",
+    "runtime-validations",
+    "mongo-js",
+    "mongo-syntax"
+  ],
+  "author": "MaheIT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maheit/mongojs/issues"
+  },
+  "homepage": "https://github.com/maheit/mongojs#readme",
+  "devDependencies": {
+    "esbuild": "^0.23.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3"
+  }
+}
