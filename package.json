@@ -2,9 +2,17 @@
   "name": "mongojs",
   "version": "0.0.0",
   "description": "A next generation runtime js data validator based on mongo syntax",
-  "main": "index.js",
+  "type": "module",
+  "main": "dist/bundle.min.js",
+  "exports": {
+    ".": {
+      "import": "./dist/bundle.min.js",
+      "require": "./dist/bundle.min.js"
+    }
+  },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
